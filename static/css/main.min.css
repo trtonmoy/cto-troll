@@ -2519,3 +2519,15 @@ input[type="color"]::-webkit-color-swatch {
 .ast-flex-grow-1 {
   flex-grow: 1;
 }
+
+.two-buttons {
+  text-align: center;
+  display: flex;
+  gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .two-buttons {
+    flex-direction: column;
+  }
+}
